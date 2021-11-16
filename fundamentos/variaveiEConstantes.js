@@ -6,7 +6,7 @@ b = 40;
 
 console.log(a, b);
 
-const c = 5
+const c = 5;
 // c = 50
 console.log(c)
 //Sempre será melhor eu utilizar constantes. Evitar reatribuir os valores das coisas.
