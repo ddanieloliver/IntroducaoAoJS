@@ -8,5 +8,5 @@ console.log(a, b);
 
 const c = 5;
 // c = 50
-console.log(c)
+console.log(c);
 //Sempre será melhor eu utilizar constantes. Evitar reatribuir os valores das coisas.
