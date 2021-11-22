@@ -13,9 +13,9 @@ console.log(sera)
 //Escopo é o local aonde a variável é visivel. Até onde ela é acessivel;
 
 function teste () {
-    var local = 123
+    let local = 123
     console.log(local)
 }
 
 teste ()
-//console.log(local) -- Não consegue porque var local só é visto dentro da function
+// console.log(local) -- Não consegue porque var local só é visto dentro da function
