@@ -18,6 +18,6 @@ const {sobrenome, bemHumorada = true} = pessoa
 console.log(sobrenome, bemHumorada)
 
 const {endereco: {logradouro, numero, cep }} = pessoa
-console.log(logradouro, numero, cep)
+console.log(logradouro, numero, cep);
 // cuidado para não tentar acessar um recuso que não existe por exemplo:
 // const{conta{ag: n:}} isso vai dar erro;
