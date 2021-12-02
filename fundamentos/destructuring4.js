@@ -8,4 +8,4 @@ console.log(rand([50 , 40])) //rand([]) gera valores aleatórios
 console.log(rand([992]))
 console.log(rand([, 10]))
 console.log(rand([]))
-// console.log(rand()) vai dar erro
+// console.log(rand()) vai dar erro;
