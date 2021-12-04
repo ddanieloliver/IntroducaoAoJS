@@ -10,3 +10,19 @@ console.log(++num1 === num2--) // ATANÇÃO! Esse caso dará true, porque o -- s
 //Tanto é que:
 console.log(num1 === num2) // isso agora dará false
 //PORTANTO: evite colocar incremento dentro de uma comparação.
+
+
+
+// um novo recurso do ES7 permite utilizar exponencial de forma mais facilitada:
+let exp = 2**3 // o ** significa elevado
+console.log(exp)
+
+// podemos fazer outra atribuiçãoi também como:
+let base = 2
+base **= 3 // Eleva o valor armazenado na variavel bae à terceira potencia
+
+console.log(base)
+
+//ou até mesmo:
+/*let*/ exp = 2 ** -3 // expoente negativo
+console.log(exp)
